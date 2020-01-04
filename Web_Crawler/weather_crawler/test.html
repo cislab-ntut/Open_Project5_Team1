@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="zh-Hant-TW" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="zh-Hant-TW" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zh-Hant-TW">
+<!--<![endif]-->
+<head>
+  <title>每月氣象 | 交通部中央氣象局</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--Facebook_meta_begin-->
+  <!-- Facebook -->
+  <meta property="og:url" content="https://www.cwb.gov.tw/V8/C/C/Statistics/monthlydata.html" />
+  <meta property="og:image" content="https://www.cwb.gov.tw/Data/satellite/TWI_IR1_CR_800/TWI_IR1_CR_800.jpg" />
+  <meta property="og:title" content="每月氣象資料 - 中央氣象局全球資訊網" /> 
+  <meta property="og:description" content="每月天氣,風向,風力,濕度,氣壓,雨量,日照氣象資料" />
+  <meta property="og:site_name" content="中央氣象局全球資訊網" />
+  <!--Facebook_meta_end-->
+  <!--tw.gov_meta_begin-->
+  <meta name="DC.Creator" content="交通部中央氣象局" />
+  <meta name="DC.Contributor" content="交通部中央氣象局" />
+  <meta name="DC.Type" content="服務" />
+  <meta name="DC.Format" content="text" />
+  <meta name="DC.Source" content="交通部中央氣象局" />
+  <meta name="DC.Language" content="中文" />
+  <meta name="DC.coverage.t.min" content="2019-09-25" />
+  <meta name="DC.coverage.t.max" content="2024-09-25" />
+  <meta name="DC.Publisher" content="交通部中央氣象局" />
+  <meta name="DC.Date" content="2019-09-25 14:09" />
+  <meta name="DC.Identifier" content="315070000H" />
+  <meta name="DC.Relation" content="" />
+  <meta name="DC.Rights" content="交通部中央氣象局" />
+  <meta name="Category.Theme" content="650" />
+  <meta name="Category.Cake" content="CM0" />
+  <meta name="Category.Service" content="EZ0" />
+  <meta name="DC.Title" content="中央氣象局全球資訊網" />
+  <meta name="DC.Subject" content="氣候" />
+  <meta name="DC.Description" content="氣候統計" />
+  <meta name="Keywords" content="天氣,風向,風力,濕度,氣壓,雨量,日照" />
+  <!--tw.gov_meta_end-->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/V8/favicon.ico">
+  <!-- =============== CSS Global Compulsory =============== -->
+  <!--common_css_begin-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="application-name" content="中央氣象局">
+  <meta name="msapplication-TileImage" content="/V8/assets/img/win10/cwbPinlogo.png">
+  <meta name="msapplication-square70x70logo" content="/V8/assets/img/win10/cwbPinlogo70.png">
+  <meta name="msapplication-square150x150logo" content="/V8/assets/img/win10/cwbPinlogo150.png">
+  <meta name="msapplication-square310x310logo" content="/V8/assets/img/win10/cwbPinlogo310.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/V8/assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/V8/assets/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/V8/assets/plugins/cwb-fonticon/style.css">
+  <link rel="stylesheet" href="/V8/assets/plugins/plugins.css">
+  <link rel="stylesheet" href="/V8/assets/css/main.css">
+  <!--common_css_end-->
+  <!-- =============== CSS Customization =============== --> 
+</head>
+<body>
+  <!--=== Header ===-->
+  <header class="header" id="header"></header>
+  <!--=== End Header ===-->
+  <!--=== Breadcrumbs ===-->
+  <div class="breadcrumbs">
+    <div class="container">
+	  <a href="#center-content" accesskey="C" id="center-content" class="acc" title=":::中間內容區導盲磚">:::</a>
+      <ul class="pull-right breadcrumb breadcrumb-left">
+        <li><a href="/V8/C/index.html" aria-label="首頁" target="_self"><i class="fa fa-home" aria-hidden="true" title="首頁"></i></a></li>
+        <li>氣候</li>
+        <li>氣候統計</li>
+        <li>每月氣象</li>
+      </ul>
+    </div>
+  </div>
+  <!--=== End Breadcrumbs ===-->
+  <div class="main-title-bar">
+    <div class="container">
+      <h2 class="main-title">
+        <i class="icon-cwb-cloud" aria-hidden="true"></i>每月氣象</h2>
+    </div>
+  </div>
+  <!--=== Content Part ===-->
+  <form class="sky-form">
+    <fieldset>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <label class="label text-right">請選擇</label>
+          </div>           
+          <div class="col-sm-2">
+            <label class="select">
+              <select id="Year" name="year" size="1">               
+			  </select>
+              <i aria-hidden="true"></i>
+            </label>
+          </div>
+          <div class="col-sm-2">
+            <label class="select">
+              <select id="Month" name="month" size="1">
+              <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+			  <option value="5">5</option>
+			  <option value="6">6</option>
+			  <option value="7">7</option>
+			  <option value="8">8</option>
+			  <option value="9">9</option>
+			  <option value="10">10</option>
+			  <option value="11">11</option>
+			  <option value="12">12</option>
+			  </select>
+              <i aria-hidden="true"></i>
+            </label>
+          </div>           
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <div class="wrapper">
+    <main class="main-content">
+      <div class="container">
+        <div class="row">
+          <!--Striped Rows 樣式二 -->
+          <div class="col-md-12">
+            <h3 id="SubTitle" class="md_subtitle"><span class="notes"></span>
+            </h3>
+			<div class="visible-sm visible-xs">
+            <div class="nav_arrow_three-hr">
+              <a class="go-left" title="返回">返回</a>
+              <a class="go-right" title="看更多資料">看更多資料</a>
+            </div>
+            </div>
+            <div class="table_fix_left table-responsive">
+              <table class="table table-striped"> 
+                <thead>
+                  <tr class="th_row_1">
+                    <th class="H-0"></th>
+                    <th id="H-1" colspan="3">溫度
+                      <span>(℃)</span>
+                    </th>
+                    <th id="H-2">雨量</th>
+                    <th id="H-3" colspan="2">風速
+                      <span>(公尺/秒)</span>/
+                      <br class="visible-md visible-sm">風向(360°)/日期</th>
+                    <th id="H-4" colspan="2">相對溼度(%)</th>
+                    <th id="H-5">測站
+                      <br class="visible-md visible-sm">氣壓</th>
+                    <th id="H-6">降水日數
+                      <br class="visible-md visible-sm">&gt;=0.1毫米</th>
+                    <th id="H-7">日照
+                      <br class="visible-md visible-sm">時數</th>
+                  </tr>
+                  <tr class="th_row_2">
+                    <th id="subH-1">測站</th>
+                    <th id="subH-2" headers="H-1">平均</th>
+                    <th id="subH-3" headers="H-1">最高/日期</th>
+                    <th id="subH-4" headers="H-1">最低/日期</th>
+                    <th id="subH-5" headers="H-2">(毫米)</th>
+                    <th id="subH-6" headers="H-3">最大十分鐘風</th>
+                    <th id="subH-7" headers="H-3">最大瞬間風</th>
+                    <th id="subH-8" headers="H-4">平均</th>
+                    <th id="subH-9" headers="H-4">最小/日期</th>
+                    <th id="subH-10" headers="H-5">(百帕)</th>
+                    <th id="subH-11" headers="H-6">(天)</th>
+                    <th id="subH-12" headers="H-7">(小時)</th>
+                  </tr>
+                </thead>
+                <tbody id="MonthlyData_MOD">				
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--End Striped Rows 樣式二 -->
+          <div class="col-md-12">
+            <div class="other">
+              <h4 class="note">註</h4>
+              <ul class="list-unstyled">
+                <li>更新時間為每月1日14:00。</li>
+                <li>T 雨跡，降水量小於0.1mm。V表示風向不定。</li>
+                <li>最大10分鐘風：
+                  <br class="visible-sm">指一測站在特定間內之最大10分鐘平均風速，當時風之主要來向，即為風向。</li>
+                <li>最大瞬間風：意指最大陣風，一測站在特定期間內之最大瞬間風速。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!--/wrapper-->
+  <!--/container-->
+  <!-- End Content Part -->
+  <!--=== Footer ===-->
+  <footer id="footer-v3" class="footer-v3">
+  </footer>
+  <!--=== End Footer ===-->
+  <!-- JS Global Compulsory -->
+  <script type="text/javascript" src="/V8/C/C/Statistics/MonthlyData/MOD/date.js"></script>
+  <!--common_js_begin-->
+  <script src="/Data/js/warn/Warning_Content.js?"></script>
+  <script src="/Data/js/info/Info_Warning.js"></script>
+  <script src="/Data/js/info/Info_County.js?"></script>
+  <script src="/Data/js/info/Info_Town.js?"></script>
+  <script src="/V8/assets/plugins/jquery/jquery-2.2.4.min.js"></script>
+  <script src="/V8/assets/plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="/V8/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/V8/assets/plugins/back-to-top.js"></script>
+  <script src="/V8/assets/plugins/smoothScroll.js"></script>
+  <script src="/V8/assets/js/function-global.js?v=20190925"></script>
+  <script src="/V8/assets/js/app.js"></script>
+  <script src="/V8/assets/js/cookie_lib.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126485471-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-126485471-1');
+  </script>
+  <!--common_js_end-->
+  <!-- JS Customization -->
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      App.init();
+	  console.log("load start");
+	  //年份選單 date.js
+	   for (i = default_year; i > 2008; i--)
+        {
+          $('#Year').append($('<option />').val(i).html(i));
+        }
+	  //var d = new Date(),DefaultMonth = d.getMonth(),DefaultYear = d.getFullYear();
+	  $('#Month option[value="'+default_month+'"]').prop('selected', true);
+      $('#Year option[value="'+default_year+'"]').prop('selected', true); 
+	  GetMOD(VER, default_year, default_month, '#MonthlyData_MOD'); 
+    });	 	
+ 
+   function GetMOD(VER, Year, Month, TARGET_DIV) {
+	  
+	 var TimeString = new Date(); 
+	 var MOD_DIR = "/V8/"+VER+"/C/Statistics/MonthlyData/MOD/";
+	 var MOD_FILE = Year+"_"+Month+".html?ID="+TimeString;  
+	 $.get(MOD_DIR+MOD_FILE, '', function(data) { 
+		$(TARGET_DIV).html(data);
+        //alert(data);		
+		console.log( 'Get '+MOD_FILE+' Success' );
+	 }).fail(function(){
+		console.log( 'Get '+MOD_FILE+' Failed!' );
+	 });
+	 
+		 
+		$('#SubTitle').html(Year+"年"+Month+"月 氣象資料"); 
+     }	  
+	 
+     $("#Year, #Month").change(function() {  
+			SelectYear = $("#Year").val();
+            SelectMonth = $("#Month").val();			
+			GetMOD(VER, SelectYear, SelectMonth, '#MonthlyData_MOD');
+	 }); 
+	 
+     // -----------PC 表格位移按鈕
+     $(function () {
+       $('a.go-right').click(function (event) {
+         $('.table_fix_left').animate({
+           scrollLeft: '+=2000'
+         }, 2000);
+      $('.go-left').addClass("show");
+     });
+	 
+     $('a.go-left').click(function (event) {
+       $('.table_fix_left').animate({
+         scrollLeft: '-=2000'
+       }, 2000);
+      $(this).removeClass("show");
+     });
+	 
+     $('.table_fix_left').on('scroll', function (e) {
+       var left = $(this).scrollLeft();
+        $('.table_fix_left thead').scrollLeft(left); 
+       });
+     });
+     // -----------end PC 表格位移按鈕	
+	 
+  </script>
+  <!--[if lt IE 9]>
+    <script src="/V8/assets/plugins/IE/respond.js"></script>
+    <script src="/V8/assets/plugins/IE/html5shiv.js"></script>
+    <script src="/V8/assets/plugins/IE/placeholder-IE-fixes.js"></script>
+    <![endif]-->
+</body>
+</html>
