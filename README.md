@@ -17,4 +17,18 @@ HxD, windows
 
 ### 成果顯示: ###
 
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/1.bmp "底圖")
+                                    
+                                                    原始底圖
+                                                    
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST1-1.png "底圖")
+
+                                                    原始內容
+
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST1-2.png "底圖")
+
+                                                 修改為所需密文內容
+
 ![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST.bmp "底圖")
+
+                                                     輸出結果
