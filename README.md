@@ -21,15 +21,15 @@ HxD, windows
                                     
                                                     原始底圖
                                                     
-![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST1-1.png "底圖")
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST1-1.png "底圖內容")
 
                                                     原始內容
 
-![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST1-2.png "底圖")
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST1-2.png "修改")
 
                                                  修改為所需密文內容
 
-![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST.bmp "底圖")
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST.bmp "結果")
 
                                                      輸出結果
 
@@ -43,7 +43,7 @@ HxD, windows
 
 Visual stdio 2017, opencv-3.4.0, windows, c++
 
-### 方法2 ###
+### 方法2: ###
 
 1.選擇取名1.jpg的圖像為底圖
 
@@ -55,3 +55,18 @@ Visual stdio 2017, opencv-3.4.0, windows, c++
 
 ### 成果顯示: ###
 
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/1.jpg "底圖")
+                                    
+                                                    原始底圖
+                                                    
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST2-1.png "加密密文")
+
+                                                    欲加密密文
+
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/stego1.bmp "結果")
+
+                                                     輸出結果
+
+![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST2-2.png "解密")
+
+                                                      解密結果
