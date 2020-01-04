@@ -17,4 +17,4 @@ HxD, windows
 
 ### 成果顯示: ###
 
-![Alt text](Stego_ mission_1 1051540/TEST.bmp "Optional title")
+![Alt text](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST.bmp "Optional title")
