@@ -41,7 +41,7 @@ HxD, windows
 
 ### 所需工具和編譯環境: ###
 
-Visual stdio 2017, opencv-3.4.0, windows, c++
+Visual studio 2017, opencv-3.4.0, windows, c++
 
 ### 方法2: ###
 
