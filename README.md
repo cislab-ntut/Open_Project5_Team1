@@ -77,11 +77,14 @@ Visual studio 2017, opencv-3.4.0, windows, c++
 
 
 ### 所需工具和編譯環境: ###
-Python
+Python3.7
 
 ### Demo ###
 以Stego Mission 3原題所給灰色Image作為加密載體圖</br>
-輸入欲添加密文在圖中之坐標位置及密文內容：
-![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p1.png "底圖")
+輸入欲添加密文在圖中之坐標位置及密文內容：</br>
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p1.png)
+可以看到有Output Stego image生成：</br>
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p2.png)
+
 
 
