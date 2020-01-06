@@ -73,16 +73,16 @@ Visual studio 2017, opencv-3.4.0, windows, c++
 
 # 1051555 余洪楓 #
 ===============================================================================
-## Stego mission 3 Stego Image生成器 ##
+## Stego Mission 3 Stego image生成器 ##
 
 
 ### 所需工具和編譯環境: ###
 Python2.7, Pillow Library
 
 ### 方法 ###
-1.取載體圖的第一個Pixel的RGB值作為flag，對其RGB值中的B值進行修改，若B值大於1則將B值減1，否則加1。
-2.設定密文的字體，取得並設定使用者輸入的密文內容及坐標，且將密文的顏色設定為修改後的RGB值。
-3.使用Pillow套件在載體圖上寫入密文，生成並儲存為Stego Image。
+1.取載體圖的第一個Pixel的RGB值作為flag，對其RGB值中的B值進行修改，若B值大於1則將B值減1，否則加1。</br>
+2.設定密文的字體，取得並設定使用者輸入的密文內容及坐標，且將密文的顏色設定為修改後的RGB值。</br>
+3.使用Pillow套件在載體圖上寫入密文，生成並儲存為Stego Image。</br>
 
 ### Demo ###
 以Stego Mission 3原題所給灰色Image作為加密載體圖(載體圖片必須為肉眼所見的純色）</br>
