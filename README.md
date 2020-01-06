@@ -70,3 +70,18 @@ Visual studio 2017, opencv-3.4.0, windows, c++
 ![原始底圖](https://github.com/cislab-yzu/Project1-5_Open/blob/master/Stego_%20mission_1%201051540/TEST2-2.png "解密")
 
                                                       解密結果
+
+# 1051555 余洪楓 #
+===============================================================================
+## Stego mission 3 Stego Image生成器 ##
+
+
+### 所需工具和編譯環境: ###
+Python
+
+### Demo ###
+以Stego Mission 3原題所給灰色Image作為加密載體圖</br>
+輸入欲添加密文在圖中之坐標位置及密文內容：
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p1.png "底圖")
+
+
