@@ -138,9 +138,9 @@ Python 3.7, VS code, Sonic Visualiser
 
 1.在vs code中選擇 Terminal --> New Terminal
 
-2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取
+2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取,而abcd為密文,也可隨意輸入
 
-    echo "abcd" |python play.py -f 750 --wpm 10 -o 123.wav
+    $echo "abcd" |python play.py -f 750 --wpm 10 -o 123.wav
 
 3.可在圖中左側發現資料夾中多了一個.wav檔,其檔名為你在上一步驟中輸入的檔名,此處以123為例
 
@@ -148,7 +148,7 @@ Python 3.7, VS code, Sonic Visualiser
 
 4.將所產生之.wav檔(123.wav),用Sonic Visualiser打開,即可看到以下之圖示
 
-![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/code_exe.png)
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/morse_wave.png)
 
 
 
