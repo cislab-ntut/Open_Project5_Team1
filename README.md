@@ -124,6 +124,9 @@ Python 3.7
 Python 3.7, VS code
 
 ### 方法 ###
+1.在terminal輸入"python play.py -f 750 --wpm 10 -o name.wav",此處的name可任意取
+
+2.此時會產生一name.wav在同一目錄底下
 
 
 
