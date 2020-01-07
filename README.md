@@ -133,9 +133,15 @@ Run python encrypt.py pic3.png
 Python 3.7, VS code
 
 ### 方法 ###
-1.在terminal輸入"python play.py -f 750 --wpm 10 -o name.wav",此處的name可任意取
+以下方法在圖中皆有對應編號
+1.在vs code中選擇 Terminal --> New Terminal
 
-2.此時會產生一name.wav在同一目錄底下
+2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取
+:::info
+echo "abcd" |python play.py -f 750 --wpm 10 -o 123.wav
+:::
+
+3.可在圖中左側發現資料夾中多了一個.wav檔,其檔名為你在上一步驟中輸入的檔名,此處以123為例
 
 
 
