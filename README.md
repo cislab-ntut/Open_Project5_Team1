@@ -107,7 +107,7 @@ Image-Cryptography
 ### 方法 ###
 
 1.將要被加密的圖片儲存在input folder裡:</br>
-![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/input/pic3.png)</br>
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/input/pig.jpg)</br>
 
 Run python encrypt.py pic3.png
 
@@ -118,9 +118,9 @@ Run python encrypt.py pic3.png
 
 3.key會產生在keys.txt
 
-4.進行解密
-  Run python decrypt.py pic3.png
-  輸入 key values (Kr, Kc and ITER_MAX)
+4.進行解密</br>
+  Run python decrypt.py pic3.png</br>
+  輸入 key values (Kr, Kc and ITER_MAX)</br>
 5.解密圖片儲存在decrypted_images/pic3.png
 
 # 1051327 厲威槿 #
