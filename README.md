@@ -133,7 +133,7 @@ Run python encrypt.py pic3.png
 Python 3.7, VS code
 
 ### 方法 ###
-以下方法在圖中皆有對應編號
+以下步驟在圖中皆有對應編號
 1.在vs code中選擇 Terminal --> New Terminal
 
 2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取
