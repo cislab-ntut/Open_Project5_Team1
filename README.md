@@ -130,10 +130,12 @@ Run python encrypt.py pic3.png
 ## Stego mission 9 加密摩斯密碼in audio file ##
 
 ### 所需工具和編譯環境: ###
-Python 3.7, VS code
+Python 3.7, VS code, Sonic Visualiser
 
 ### 方法 ###
-以下步驟在圖中皆有對應編號
+
+以下步驟1~3在以下之圖中皆有對應編號
+
 1.在vs code中選擇 Terminal --> New Terminal
 
 2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取
@@ -141,6 +143,12 @@ Python 3.7, VS code
     echo "abcd" |python play.py -f 750 --wpm 10 -o 123.wav
 
 3.可在圖中左側發現資料夾中多了一個.wav檔,其檔名為你在上一步驟中輸入的檔名,此處以123為例
+
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/code_exe.png)
+
+4.將所產生之.wav檔(123.wav),用Sonic Visualiser打開,即可看到以下之圖示
+
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/code_exe.png)
 
 
 
