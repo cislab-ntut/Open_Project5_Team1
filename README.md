@@ -134,11 +134,11 @@ Python 3.7, VS code, Sonic Visualiser
 
 ### 方法 ###
 
-以下步驟1~3在以下之圖中皆有對應編號
+以下步驟1~3在圖中皆有對應編號
 
 1.在vs code中選擇 Terminal --> New Terminal
 
-2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取,而abcd為密文,也可隨意輸入
+2.在視窗下半部的terminal中輸入以下指令,此處的123為檔名,可隨意取,而abcd為密文,也可隨意輸入
 
     $echo "abcd" |python play.py -f 750 --wpm 10 -o 123.wav
 
@@ -146,7 +146,11 @@ Python 3.7, VS code, Sonic Visualiser
 
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/code_exe.png)
 
-4.將所產生之.wav檔(123.wav),用Sonic Visualiser打開,即可看到以下之圖示
+4.將所產生之.wav檔(123.wav),用Sonic Visualiser打開,即可看到以下之圖示,其中較細的部分為摩斯密碼中的".",較寬的部分為摩斯密碼中的"-"
+
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/morse_wave.png)
+
+5.將剛剛步驟2所輸入之密文(abcd)丟到網路上的Morse Code Translator,驗證其正確性,可得以下圖片
 
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/morse_wave.png)
 
