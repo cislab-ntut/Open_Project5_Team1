@@ -85,7 +85,7 @@ Python2.7, Pillow Library
 3.使用Pillow依據我們的設定在載體圖上寫入密文，生成並儲存為Stego Image。</br>
 
 ### Demo ###
-以Stego Mission 3原題所給灰色Image作為加密載體圖(載體圖片必須為肉眼所見的純色）</br>
+為了測試，我以Stego Mission 3原題所給灰色Image作為加密載體圖(載體圖片不能過大！且必須為肉眼所見的純色）</br>
 輸入欲添加密文在圖中之坐標位置及密文內容：</br>
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p1.png)
 可以看到有Output Stego image生成：</br>
@@ -93,7 +93,7 @@ Python2.7, Pillow Library
 將生成的Stego image放入Project 3 (https://github.com/cislab-yzu/Project1-3_Hackthissite/tree/master/1051555) 中寫的解密程式進行解密，輸出為output.bmp：</br>
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p3.png)
 可以看到除了有Stego Mission 3圖片本身的密文外(n38....)，新增了我們剛剛自行添加的密文(Cipher Text)</br></br>
-注：如要使用解密程式解密需要將StegoImageCreator.py（加密程式）中的輸出圖片改為與ImageAnalyzer.py（解密程式）的輸入圖片名字一致方可解密
+注：如要使用解密程式解密需要將StegoImageCreator.py（加密程式）中的輸出圖片改為與ImageAnalyzer.py（解密程式）的輸入圖片名字一致，輸出圖片的格式名也需與輸入格式一致，方可解密。
 
 
 # 10151333 李世璽 #
