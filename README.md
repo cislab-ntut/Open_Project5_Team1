@@ -105,8 +105,9 @@ Python 3.7
 ### 方法 ###
 1.將要被加密的圖片儲存在input folder裡
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/input/pig.jpg)
-2.執行之後會產生加密圖片encrypted_images
 
+2.執行之後會產生加密圖片encrypted_images
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/pic3.png)
 
 3.key會產生在keys.txt
 
