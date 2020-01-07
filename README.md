@@ -121,6 +121,8 @@ Run python encrypt.py pic3.png
 4.進行解密</br>
   Run python decrypt.py pic3.png</br>
   輸入 key values (Kr, Kc and ITER_MAX)</br>
+  
+  
 5.解密圖片儲存在decrypted_images/pic3.png
 
 # 1051327 厲威槿 #
