@@ -104,8 +104,7 @@ Python 3.7
 
 ### 方法 ###
 1.將要被加密的圖片儲存在input folder裡
-
-
+![image]
 2.執行之後會產生加密圖片encrypted_images
 
 
