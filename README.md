@@ -137,6 +137,7 @@ Python 3.7, VS code
 1.在vs code中選擇 Terminal --> New Terminal
 
 2.在視窗下半部的terminal中輸入以下指,此處的123為檔名,可隨意取
+
 :::info
 echo "abcd" |python play.py -f 750 --wpm 10 -o 123.wav
 :::
