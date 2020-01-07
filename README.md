@@ -102,19 +102,26 @@ Python2.7, Pillow Library
 ### 所需工具和編譯環境: ###
 Python 3.7
 
+### 檔案 ###
+Image-Cryptography
 ### 方法 ###
+
 1.將要被加密的圖片儲存在input folder裡:</br>
-![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/input/pig.jpg)
+![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/input/pic3.png)</br>
 
-
+Run python encrypt.py pic3.png
 
 
 2.執行之後會產生加密圖片encrypted_images:</br>
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/pic3.png)
 
 
-
 3.key會產生在keys.txt
+
+4.進行解密
+  Run python decrypt.py pic3.png
+  輸入 key values (Kr, Kc and ITER_MAX)
+5.解密圖片儲存在decrypted_images/pic3.png
 
 # 1051327 厲威槿 #
 ===============================================================================
