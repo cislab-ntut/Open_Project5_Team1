@@ -94,5 +94,24 @@ Python2.7, Pillow Library
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/StegoMission3_Creator_1051555/p3.png)
 可以看到除了有Stego Mission 3本身的密文外，新增了我們剛剛自行添加的密文
 
+# 10151333 李世璽 #
+===================================================================================
+
+# image encryption #
+
+### 所需工具和編譯環境: ###
+Python 3.7
+
+### 方法 ###
+1.將要被加密的圖片儲存在input folder裡
+
+
+2.執行之後會產生加密圖片encrypted_images
+
+
+3.key會產生在keys.txt
+
+
+
 
 
