@@ -150,7 +150,7 @@ Python 3.7, VS code, Sonic Visualiser
 
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/morse_wave.png)
 
-5.將剛剛步驟2所輸入之密文(abcd)丟到網路上的Morse Code Translator,驗證其正確性,可得以下圖片
+5.將剛剛步驟2所輸入之密文(abcd)丟到網路上的Morse Code Translator,驗證其正確性,可得以下圖片,代表摩斯密碼轉譯正確
 
 ![image](https://github.com/cislab-yzu/Project1-5_Open/blob/master/morse_transf.png)
 
