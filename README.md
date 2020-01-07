@@ -123,7 +123,7 @@ Run python encrypt.py pic3.png
   輸入 key values (Kr, Kc and ITER_MAX)</br>
   
   
-5.解密圖片儲存在decrypted_images/pic3.png
+5.解密圖片儲存在decrypted_images
 
 # 1051327 厲威槿 #
 ===============================================================================
